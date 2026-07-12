@@ -1,0 +1,20 @@
+{
+  "name": "research-knowledge-onramp",
+  "interface": {
+    "displayName": "Research Knowledge Onramp"
+  },
+  "plugins": [
+    {
+      "name": "research-knowledge-onramp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research-knowledge-onramp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

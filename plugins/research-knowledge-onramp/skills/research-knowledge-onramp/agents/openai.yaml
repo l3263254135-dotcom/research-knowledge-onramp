@@ -1,0 +1,4 @@
+interface:
+  display_name: "研究导向快速上手专业知识助手"
+  short_description: "帮助本科生快速建立课程与课题的 research-level 理解框架"
+  default_prompt: "Use $research-knowledge-onramp to build a research-oriented knowledge map and first-pass study pack from the user's materials."

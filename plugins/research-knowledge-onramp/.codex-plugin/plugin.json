@@ -1,0 +1,37 @@
+{
+  "name": "research-knowledge-onramp",
+  "version": "0.1.0",
+  "description": "Research mentor and proposal assistant for Codex",
+  "author": {
+    "name": "Zeyu"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research Mentor Onramp",
+    "shortDescription": "Paper mentor and proposal helper for Codex.",
+    "longDescription": "Turn local course files, textbooks, and papers into a research-first knowledge map, paper critique, and proposal starter pack.",
+    "developerName": "Zeyu",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Build a research-first knowledge map from my local materials.",
+      "Read this paper like a mentor and critique its novelty, evidence, and limits.",
+      "Turn this idea into a research question, baselines, metrics, and a minimal experiment."
+    ],
+    "websiteURL": "https://github.com/l3263254135-dotcom/research-knowledge-onramp"
+  },
+  "homepage": "https://github.com/l3263254135-dotcom/research-knowledge-onramp",
+  "repository": "https://github.com/l3263254135-dotcom/research-knowledge-onramp",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "paper-reading",
+    "proposal",
+    "coursework",
+    "knowledge-onramp",
+    "codex-plugin"
+  ]
+}
