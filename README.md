@@ -79,7 +79,7 @@ codex plugin marketplace upgrade research-knowledge-onramp
 如需重新安装：
 
 ```bash
-codex plugin remove research-knowledge-onramp
+codex plugin remove research-knowledge-onramp@research-knowledge-onramp
 codex plugin add research-knowledge-onramp@research-knowledge-onramp
 ```
 
