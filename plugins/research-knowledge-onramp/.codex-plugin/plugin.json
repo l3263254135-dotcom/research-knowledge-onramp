@@ -12,10 +12,7 @@
     "longDescription": "Turn local course files, textbooks, and papers into a research-first knowledge map, paper critique, and proposal starter pack.",
     "developerName": "Zeyu",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Write"],
     "defaultPrompt": [
       "Build a research-first knowledge map from my local materials.",
       "Read this paper like a mentor and critique its novelty, evidence, and limits.",
@@ -26,12 +23,5 @@
   "homepage": "https://github.com/l3263254135-dotcom/research-knowledge-onramp",
   "repository": "https://github.com/l3263254135-dotcom/research-knowledge-onramp",
   "license": "MIT",
-  "keywords": [
-    "research",
-    "paper-reading",
-    "proposal",
-    "coursework",
-    "knowledge-onramp",
-    "codex-plugin"
-  ]
+  "keywords": ["research", "paper-reading", "proposal", "coursework", "knowledge-onramp", "codex-plugin"]
 }

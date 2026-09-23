@@ -85,6 +85,17 @@ codex plugin add research-knowledge-onramp@research-knowledge-onramp
 
 ## 本地开发与验证
 
+个人插件的唯一编辑源是 `~/plugins/research-knowledge-onramp/`，Codex 缓存目录不用于编辑。这个仓库的 `plugins/` 内容由发布脚本从该目录同步。
+
+统一发布命令也支持 `handoff`、`research-paper-workflow` 和 `Moyu-Translate`；后三者的仓库应与本仓库放在同一父目录。先运行只读预览，再发布到对应仓库的 `main`：
+
+```bash
+./scripts/publish-project.sh research-knowledge-onramp --dry-run
+./scripts/publish-project.sh research-knowledge-onramp --message "docs: update mentor guidance"
+```
+
+脚本会检查分支及远端、校验插件、扫描本机路径和凭据、同步源目录、检查 Git diff、提交并推送，然后刷新个人 marketplace 的安装副本。插件更新在新 Codex 任务中生效。Moyu 的源是其 Git 仓库本身；从已同步的 `main` 发布，避免覆盖其他分支的工作。
+
 验证 skill：
 
 ```bash
